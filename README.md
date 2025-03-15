@@ -80,6 +80,10 @@ Several control signals are integrated to handle the different modes of operatio
 
 Data Flow: The DRAM is connected to the Program Counter (for fetching instructions) and the Instruction Register (for storing fetched instructions). The DRAM also interfaces with general-purpose registers to store or retrieve operand values.
 
+
+
+
+
    
 
 Test Results
