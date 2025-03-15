@@ -11,6 +11,7 @@ The instruction register is designed to store instructions temporarily before ex
 
 Three State buffers or control gates manage the data flow from DRAM into the instruction register.
 
+
 Control Signals:
 
 Load (LD): Controls when to load data into the instruction register.
