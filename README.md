@@ -9,7 +9,7 @@ It can receive data from multiple sources (such as DRAM).
 A multiplexer (MUX) is used to manage input sources, ensuring that the correct data is loaded into the register.
 The instruction register is designed to store instructions temporarily before execution.
 
-Tri-state buffers or control gates manage the data flow from DRAM into the instruction register.
+Three State buffers or control gates manage the data flow from DRAM into the instruction register.
 
 Control Signals:
 
