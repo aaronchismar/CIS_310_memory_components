@@ -3,10 +3,10 @@
 1. Instruction Register (IR)
 Design Choices:
 
-A 4-bit register is used to hold the instruction fetched from memory before it is executed.
+4-bit register is used to hold the instruction fetched from memory before it is executed.
 It can receive data from multiple sources (such as DRAM).
 
-A multiplexer (MUX) is used to manage input sources, ensuring that the correct data is loaded into the register.
+Multiplexer (MUX) is used to manage input sources, ensuring that the correct data is loaded into the register.
 The instruction register is designed to store instructions temporarily before execution.
 
 Three State buffers or control gates manage the data flow from DRAM into the instruction register.
